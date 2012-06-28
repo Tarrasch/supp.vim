@@ -1,13 +1,10 @@
 " Vim syntax file
 " Language: Valgrind suppression file
-" Maintainer: David Necas (Yeti) <yeti@physics.muni.cz>
-" Last Change: 2011-02-06
+" Author: David Necas (Yeti) <yeti@physics.muni.cz>
+" Maintainer: Arash Rouhani (Tarrasch) <miffoljud@gmail.com>
 
-if version >= 600
-  " Quit when a syntax file was already loaded
-  if exists("b:current_syntax")
-    finish
-  endif
+if exists("b:current_syntax")
+  finish
 endif
 
 syn case match
